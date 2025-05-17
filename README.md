@@ -3,6 +3,7 @@
 
 ### AIM:
 To implement SARIMA model using python.
+
 ### ALGORITHM:
 1. Explore the dataset
 2. Check for stationarity of time series
@@ -10,6 +11,7 @@ To implement SARIMA model using python.
 4. Fit the SARIMA model
 5. Make time series predictions and Auto-fit the SARIMA model
 6. Evaluate model predictions
+
 ### PROGRAM:
 ```
 import pandas as pd
@@ -80,6 +82,7 @@ predictions = model_fit.forecast(len(test))
 mse = mean_squared_error(test, predictions)
 print(f'Mean Squared Error: {mse}')
 ```
+
 ### OUTPUT:
 ![image](https://github.com/user-attachments/assets/771f9216-4c0a-45d4-a8f4-2f5c59faec66)
 
